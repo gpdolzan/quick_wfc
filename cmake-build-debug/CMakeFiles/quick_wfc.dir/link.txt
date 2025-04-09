@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\quick_wfc.dir/objects.a
+C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\ar.exe qc CMakeFiles\quick_wfc.dir/objects.a @CMakeFiles\quick_wfc.dir\objects1.rsp
+C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\quick_wfc.dir/objects.a -Wl,--no-whole-archive -o quick_wfc.exe -Wl,--out-implib,libquick_wfc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\quick_wfc.dir\linkLibs.rsp
