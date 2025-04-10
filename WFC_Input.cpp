@@ -4,6 +4,14 @@
 
 #include "WFC_Input.h"
 #include <fstream>
+#include <iostream>
+
+void WFC_Input::initialize_variables()
+{
+    tiles_set = {};
+    constraints_map = {};
+}
+
 
 bool WFC_Input::file_exists(const std::string& filename)
 {
@@ -19,9 +27,8 @@ bool WFC_Input::file_exists(const std::string& filename)
     return true;
 }
 
-std::set<std::string> WFC_Input::read_tiles(std::ifstream &file)
+bool WFC_Input::read_tiles(std::ifstream &file)
 {
-    std::set<std::string> tiles_set = {};
     std::string line;
     std::streampos pos;
 
@@ -30,7 +37,7 @@ std::set<std::string> WFC_Input::read_tiles(std::ifstream &file)
     if (line != "[Tiles]")
     {
         std::cerr << "Didn't find [Tiles] Header, returning empty Tile Set" << std::endl;
-        return tiles_set;
+        return false;
     }
 
     while (true)
@@ -53,7 +60,21 @@ std::set<std::string> WFC_Input::read_tiles(std::ifstream &file)
         }
     }
 
-    return tiles_set;
+    return true;
+}
+
+bool read_constraints(std::ifstream &file)
+{
+    std::string line;
+    std::getline(file, line);
+
+    if (line != "[Constraints]")
+    {
+        std::cerr << "Didn't find [Tiles] Header, returning empty Tile Set" << std::endl;
+        return false;
+    }
+
+    return true;
 }
 
 bool WFC_Input::read_file(const std::string& filename)
@@ -66,9 +87,7 @@ bool WFC_Input::read_file(const std::string& filename)
 
     std::ifstream file(filename);
     std::string line;
-    std::set<std::string> tiles_set;
 
-    /* Aqui vem o codigo de como ler o arquivo wfc.in */
     std::getline(file, line);
 
     if (line != "[WFCINPUT]")
@@ -77,11 +96,13 @@ bool WFC_Input::read_file(const std::string& filename)
         return false;
     }
 
-    tiles_set = read_tiles(file);
+    /* Reading the tiles */
+    if (!read_tiles(file))
+        return false;
 
-    for (const auto& tile : tiles_set) {
-        std::cout << tile << std::endl;
-    }
+    std::cout << "Number of tiles in set: " << tiles_set.size() << std::endl;
+
+    /* Now Reading the Constraints */
 
     file.close();
     return true;

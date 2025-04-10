@@ -4,7 +4,9 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main()
 {
-    if (!WFC_Input::read_file("wfc.in"))
+    WFC_Input wfc_input;
+    wfc_input.initialize_variables();
+    if (!wfc_input.read_file("wfc.in"))
     {
         std::cerr << "Error reading file." << std::endl;
     }
