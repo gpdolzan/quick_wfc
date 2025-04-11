@@ -1,5 +1,6 @@
 [WFCINPUT]
 [Tiles]
+[Begin]
 Red
 Yellow
 Green
@@ -7,11 +8,14 @@ Cyan
 Blue
 Magenta
 White
+[End]
 [Constraints]
-Red = LURD[Red, Yellow, Magenta, White]
-Yellow = LURD[Yellow, Red, Green, White]
-Green = LURD[Green, Yellow, Cyan, White]
-Cyan = LURD[Cyan, Green, Blue, White]
-Blue = LURD[Blue, Cyan, Magenta, White]
-Magenta = LURD[Magenta, Blue, Red, White]
-White = LURD[White, Red, Yellow, Greem, Cyan, Blue, Magenta, White]
+[Begin]
+Red LURD Red Yellow Magenta White
+Yellow LURD Yellow Red Green White
+Green LURD Green Yellow Cyan White
+Cyan LURD Cyan Green Blue White
+Blue LURD Blue Cyan Magenta White
+Magenta LURD Magenta Blue Red White
+White LURD White Red Yellow Green Cyan Blue Magenta White
+[End]
