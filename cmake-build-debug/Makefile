@@ -129,78 +129,6 @@ quick_wfc/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/quick_wfc.dir/build.make CMakeFiles/quick_wfc.dir/build
 .PHONY : quick_wfc/fast
 
-WFC.o: WFC.cpp.o
-.PHONY : WFC.o
-
-# target to build an object file
-WFC.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quick_wfc.dir/build.make CMakeFiles/quick_wfc.dir/WFC.cpp.o
-.PHONY : WFC.cpp.o
-
-WFC.i: WFC.cpp.i
-.PHONY : WFC.i
-
-# target to preprocess a source file
-WFC.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quick_wfc.dir/build.make CMakeFiles/quick_wfc.dir/WFC.cpp.i
-.PHONY : WFC.cpp.i
-
-WFC.s: WFC.cpp.s
-.PHONY : WFC.s
-
-# target to generate assembly for a file
-WFC.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quick_wfc.dir/build.make CMakeFiles/quick_wfc.dir/WFC.cpp.s
-.PHONY : WFC.cpp.s
-
-WFC_Input.o: WFC_Input.cpp.o
-.PHONY : WFC_Input.o
-
-# target to build an object file
-WFC_Input.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quick_wfc.dir/build.make CMakeFiles/quick_wfc.dir/WFC_Input.cpp.o
-.PHONY : WFC_Input.cpp.o
-
-WFC_Input.i: WFC_Input.cpp.i
-.PHONY : WFC_Input.i
-
-# target to preprocess a source file
-WFC_Input.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quick_wfc.dir/build.make CMakeFiles/quick_wfc.dir/WFC_Input.cpp.i
-.PHONY : WFC_Input.cpp.i
-
-WFC_Input.s: WFC_Input.cpp.s
-.PHONY : WFC_Input.s
-
-# target to generate assembly for a file
-WFC_Input.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quick_wfc.dir/build.make CMakeFiles/quick_wfc.dir/WFC_Input.cpp.s
-.PHONY : WFC_Input.cpp.s
-
-WFC_Set.o: WFC_Set.cpp.o
-.PHONY : WFC_Set.o
-
-# target to build an object file
-WFC_Set.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quick_wfc.dir/build.make CMakeFiles/quick_wfc.dir/WFC_Set.cpp.o
-.PHONY : WFC_Set.cpp.o
-
-WFC_Set.i: WFC_Set.cpp.i
-.PHONY : WFC_Set.i
-
-# target to preprocess a source file
-WFC_Set.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quick_wfc.dir/build.make CMakeFiles/quick_wfc.dir/WFC_Set.cpp.i
-.PHONY : WFC_Set.cpp.i
-
-WFC_Set.s: WFC_Set.cpp.s
-.PHONY : WFC_Set.s
-
-# target to generate assembly for a file
-WFC_Set.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/quick_wfc.dir/build.make CMakeFiles/quick_wfc.dir/WFC_Set.cpp.s
-.PHONY : WFC_Set.cpp.s
-
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -225,6 +153,78 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/quick_wfc.dir/build.make CMakeFiles/quick_wfc.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+oldcode/WFC.o: oldcode/WFC.cpp.o
+.PHONY : oldcode/WFC.o
+
+# target to build an object file
+oldcode/WFC.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quick_wfc.dir/build.make CMakeFiles/quick_wfc.dir/oldcode/WFC.cpp.o
+.PHONY : oldcode/WFC.cpp.o
+
+oldcode/WFC.i: oldcode/WFC.cpp.i
+.PHONY : oldcode/WFC.i
+
+# target to preprocess a source file
+oldcode/WFC.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quick_wfc.dir/build.make CMakeFiles/quick_wfc.dir/oldcode/WFC.cpp.i
+.PHONY : oldcode/WFC.cpp.i
+
+oldcode/WFC.s: oldcode/WFC.cpp.s
+.PHONY : oldcode/WFC.s
+
+# target to generate assembly for a file
+oldcode/WFC.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quick_wfc.dir/build.make CMakeFiles/quick_wfc.dir/oldcode/WFC.cpp.s
+.PHONY : oldcode/WFC.cpp.s
+
+oldcode/WFC_Input.o: oldcode/WFC_Input.cpp.o
+.PHONY : oldcode/WFC_Input.o
+
+# target to build an object file
+oldcode/WFC_Input.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quick_wfc.dir/build.make CMakeFiles/quick_wfc.dir/oldcode/WFC_Input.cpp.o
+.PHONY : oldcode/WFC_Input.cpp.o
+
+oldcode/WFC_Input.i: oldcode/WFC_Input.cpp.i
+.PHONY : oldcode/WFC_Input.i
+
+# target to preprocess a source file
+oldcode/WFC_Input.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quick_wfc.dir/build.make CMakeFiles/quick_wfc.dir/oldcode/WFC_Input.cpp.i
+.PHONY : oldcode/WFC_Input.cpp.i
+
+oldcode/WFC_Input.s: oldcode/WFC_Input.cpp.s
+.PHONY : oldcode/WFC_Input.s
+
+# target to generate assembly for a file
+oldcode/WFC_Input.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quick_wfc.dir/build.make CMakeFiles/quick_wfc.dir/oldcode/WFC_Input.cpp.s
+.PHONY : oldcode/WFC_Input.cpp.s
+
+oldcode/WFC_Set.o: oldcode/WFC_Set.cpp.o
+.PHONY : oldcode/WFC_Set.o
+
+# target to build an object file
+oldcode/WFC_Set.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quick_wfc.dir/build.make CMakeFiles/quick_wfc.dir/oldcode/WFC_Set.cpp.o
+.PHONY : oldcode/WFC_Set.cpp.o
+
+oldcode/WFC_Set.i: oldcode/WFC_Set.cpp.i
+.PHONY : oldcode/WFC_Set.i
+
+# target to preprocess a source file
+oldcode/WFC_Set.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quick_wfc.dir/build.make CMakeFiles/quick_wfc.dir/oldcode/WFC_Set.cpp.i
+.PHONY : oldcode/WFC_Set.cpp.i
+
+oldcode/WFC_Set.s: oldcode/WFC_Set.cpp.s
+.PHONY : oldcode/WFC_Set.s
+
+# target to generate assembly for a file
+oldcode/WFC_Set.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quick_wfc.dir/build.make CMakeFiles/quick_wfc.dir/oldcode/WFC_Set.cpp.s
+.PHONY : oldcode/WFC_Set.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -234,18 +234,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... quick_wfc"
-	@echo "... WFC.o"
-	@echo "... WFC.i"
-	@echo "... WFC.s"
-	@echo "... WFC_Input.o"
-	@echo "... WFC_Input.i"
-	@echo "... WFC_Input.s"
-	@echo "... WFC_Set.o"
-	@echo "... WFC_Set.i"
-	@echo "... WFC_Set.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... oldcode/WFC.o"
+	@echo "... oldcode/WFC.i"
+	@echo "... oldcode/WFC.s"
+	@echo "... oldcode/WFC_Input.o"
+	@echo "... oldcode/WFC_Input.i"
+	@echo "... oldcode/WFC_Input.s"
+	@echo "... oldcode/WFC_Set.o"
+	@echo "... oldcode/WFC_Set.i"
+	@echo "... oldcode/WFC_Set.s"
 .PHONY : help
 
 

@@ -83,62 +83,62 @@ CMakeFiles/quick_wfc.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/quick_wfc.dir/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gpdolzan/CLionProjects/quick_wfc/main.cpp -o CMakeFiles/quick_wfc.dir/main.cpp.s
 
-CMakeFiles/quick_wfc.dir/WFC.cpp.o: CMakeFiles/quick_wfc.dir/flags.make
-CMakeFiles/quick_wfc.dir/WFC.cpp.o: /Users/gpdolzan/CLionProjects/quick_wfc/WFC.cpp
-CMakeFiles/quick_wfc.dir/WFC.cpp.o: CMakeFiles/quick_wfc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/gpdolzan/CLionProjects/quick_wfc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/quick_wfc.dir/WFC.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/quick_wfc.dir/WFC.cpp.o -MF CMakeFiles/quick_wfc.dir/WFC.cpp.o.d -o CMakeFiles/quick_wfc.dir/WFC.cpp.o -c /Users/gpdolzan/CLionProjects/quick_wfc/WFC.cpp
+CMakeFiles/quick_wfc.dir/oldcode/WFC.cpp.o: CMakeFiles/quick_wfc.dir/flags.make
+CMakeFiles/quick_wfc.dir/oldcode/WFC.cpp.o: /Users/gpdolzan/CLionProjects/quick_wfc/oldcode/WFC.cpp
+CMakeFiles/quick_wfc.dir/oldcode/WFC.cpp.o: CMakeFiles/quick_wfc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/gpdolzan/CLionProjects/quick_wfc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/quick_wfc.dir/oldcode/WFC.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/quick_wfc.dir/oldcode/WFC.cpp.o -MF CMakeFiles/quick_wfc.dir/oldcode/WFC.cpp.o.d -o CMakeFiles/quick_wfc.dir/oldcode/WFC.cpp.o -c /Users/gpdolzan/CLionProjects/quick_wfc/oldcode/WFC.cpp
 
-CMakeFiles/quick_wfc.dir/WFC.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/quick_wfc.dir/WFC.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gpdolzan/CLionProjects/quick_wfc/WFC.cpp > CMakeFiles/quick_wfc.dir/WFC.cpp.i
+CMakeFiles/quick_wfc.dir/oldcode/WFC.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/quick_wfc.dir/oldcode/WFC.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gpdolzan/CLionProjects/quick_wfc/oldcode/WFC.cpp > CMakeFiles/quick_wfc.dir/oldcode/WFC.cpp.i
 
-CMakeFiles/quick_wfc.dir/WFC.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/quick_wfc.dir/WFC.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gpdolzan/CLionProjects/quick_wfc/WFC.cpp -o CMakeFiles/quick_wfc.dir/WFC.cpp.s
+CMakeFiles/quick_wfc.dir/oldcode/WFC.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/quick_wfc.dir/oldcode/WFC.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gpdolzan/CLionProjects/quick_wfc/oldcode/WFC.cpp -o CMakeFiles/quick_wfc.dir/oldcode/WFC.cpp.s
 
-CMakeFiles/quick_wfc.dir/WFC_Set.cpp.o: CMakeFiles/quick_wfc.dir/flags.make
-CMakeFiles/quick_wfc.dir/WFC_Set.cpp.o: /Users/gpdolzan/CLionProjects/quick_wfc/WFC_Set.cpp
-CMakeFiles/quick_wfc.dir/WFC_Set.cpp.o: CMakeFiles/quick_wfc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/gpdolzan/CLionProjects/quick_wfc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/quick_wfc.dir/WFC_Set.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/quick_wfc.dir/WFC_Set.cpp.o -MF CMakeFiles/quick_wfc.dir/WFC_Set.cpp.o.d -o CMakeFiles/quick_wfc.dir/WFC_Set.cpp.o -c /Users/gpdolzan/CLionProjects/quick_wfc/WFC_Set.cpp
+CMakeFiles/quick_wfc.dir/oldcode/WFC_Set.cpp.o: CMakeFiles/quick_wfc.dir/flags.make
+CMakeFiles/quick_wfc.dir/oldcode/WFC_Set.cpp.o: /Users/gpdolzan/CLionProjects/quick_wfc/oldcode/WFC_Set.cpp
+CMakeFiles/quick_wfc.dir/oldcode/WFC_Set.cpp.o: CMakeFiles/quick_wfc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/gpdolzan/CLionProjects/quick_wfc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/quick_wfc.dir/oldcode/WFC_Set.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/quick_wfc.dir/oldcode/WFC_Set.cpp.o -MF CMakeFiles/quick_wfc.dir/oldcode/WFC_Set.cpp.o.d -o CMakeFiles/quick_wfc.dir/oldcode/WFC_Set.cpp.o -c /Users/gpdolzan/CLionProjects/quick_wfc/oldcode/WFC_Set.cpp
 
-CMakeFiles/quick_wfc.dir/WFC_Set.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/quick_wfc.dir/WFC_Set.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gpdolzan/CLionProjects/quick_wfc/WFC_Set.cpp > CMakeFiles/quick_wfc.dir/WFC_Set.cpp.i
+CMakeFiles/quick_wfc.dir/oldcode/WFC_Set.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/quick_wfc.dir/oldcode/WFC_Set.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gpdolzan/CLionProjects/quick_wfc/oldcode/WFC_Set.cpp > CMakeFiles/quick_wfc.dir/oldcode/WFC_Set.cpp.i
 
-CMakeFiles/quick_wfc.dir/WFC_Set.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/quick_wfc.dir/WFC_Set.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gpdolzan/CLionProjects/quick_wfc/WFC_Set.cpp -o CMakeFiles/quick_wfc.dir/WFC_Set.cpp.s
+CMakeFiles/quick_wfc.dir/oldcode/WFC_Set.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/quick_wfc.dir/oldcode/WFC_Set.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gpdolzan/CLionProjects/quick_wfc/oldcode/WFC_Set.cpp -o CMakeFiles/quick_wfc.dir/oldcode/WFC_Set.cpp.s
 
-CMakeFiles/quick_wfc.dir/WFC_Input.cpp.o: CMakeFiles/quick_wfc.dir/flags.make
-CMakeFiles/quick_wfc.dir/WFC_Input.cpp.o: /Users/gpdolzan/CLionProjects/quick_wfc/WFC_Input.cpp
-CMakeFiles/quick_wfc.dir/WFC_Input.cpp.o: CMakeFiles/quick_wfc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/gpdolzan/CLionProjects/quick_wfc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/quick_wfc.dir/WFC_Input.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/quick_wfc.dir/WFC_Input.cpp.o -MF CMakeFiles/quick_wfc.dir/WFC_Input.cpp.o.d -o CMakeFiles/quick_wfc.dir/WFC_Input.cpp.o -c /Users/gpdolzan/CLionProjects/quick_wfc/WFC_Input.cpp
+CMakeFiles/quick_wfc.dir/oldcode/WFC_Input.cpp.o: CMakeFiles/quick_wfc.dir/flags.make
+CMakeFiles/quick_wfc.dir/oldcode/WFC_Input.cpp.o: /Users/gpdolzan/CLionProjects/quick_wfc/oldcode/WFC_Input.cpp
+CMakeFiles/quick_wfc.dir/oldcode/WFC_Input.cpp.o: CMakeFiles/quick_wfc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/gpdolzan/CLionProjects/quick_wfc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/quick_wfc.dir/oldcode/WFC_Input.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/quick_wfc.dir/oldcode/WFC_Input.cpp.o -MF CMakeFiles/quick_wfc.dir/oldcode/WFC_Input.cpp.o.d -o CMakeFiles/quick_wfc.dir/oldcode/WFC_Input.cpp.o -c /Users/gpdolzan/CLionProjects/quick_wfc/oldcode/WFC_Input.cpp
 
-CMakeFiles/quick_wfc.dir/WFC_Input.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/quick_wfc.dir/WFC_Input.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gpdolzan/CLionProjects/quick_wfc/WFC_Input.cpp > CMakeFiles/quick_wfc.dir/WFC_Input.cpp.i
+CMakeFiles/quick_wfc.dir/oldcode/WFC_Input.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/quick_wfc.dir/oldcode/WFC_Input.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gpdolzan/CLionProjects/quick_wfc/oldcode/WFC_Input.cpp > CMakeFiles/quick_wfc.dir/oldcode/WFC_Input.cpp.i
 
-CMakeFiles/quick_wfc.dir/WFC_Input.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/quick_wfc.dir/WFC_Input.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gpdolzan/CLionProjects/quick_wfc/WFC_Input.cpp -o CMakeFiles/quick_wfc.dir/WFC_Input.cpp.s
+CMakeFiles/quick_wfc.dir/oldcode/WFC_Input.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/quick_wfc.dir/oldcode/WFC_Input.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gpdolzan/CLionProjects/quick_wfc/oldcode/WFC_Input.cpp -o CMakeFiles/quick_wfc.dir/oldcode/WFC_Input.cpp.s
 
 # Object files for target quick_wfc
 quick_wfc_OBJECTS = \
 "CMakeFiles/quick_wfc.dir/main.cpp.o" \
-"CMakeFiles/quick_wfc.dir/WFC.cpp.o" \
-"CMakeFiles/quick_wfc.dir/WFC_Set.cpp.o" \
-"CMakeFiles/quick_wfc.dir/WFC_Input.cpp.o"
+"CMakeFiles/quick_wfc.dir/oldcode/WFC.cpp.o" \
+"CMakeFiles/quick_wfc.dir/oldcode/WFC_Set.cpp.o" \
+"CMakeFiles/quick_wfc.dir/oldcode/WFC_Input.cpp.o"
 
 # External object files for target quick_wfc
 quick_wfc_EXTERNAL_OBJECTS =
 
 quick_wfc: CMakeFiles/quick_wfc.dir/main.cpp.o
-quick_wfc: CMakeFiles/quick_wfc.dir/WFC.cpp.o
-quick_wfc: CMakeFiles/quick_wfc.dir/WFC_Set.cpp.o
-quick_wfc: CMakeFiles/quick_wfc.dir/WFC_Input.cpp.o
+quick_wfc: CMakeFiles/quick_wfc.dir/oldcode/WFC.cpp.o
+quick_wfc: CMakeFiles/quick_wfc.dir/oldcode/WFC_Set.cpp.o
+quick_wfc: CMakeFiles/quick_wfc.dir/oldcode/WFC_Input.cpp.o
 quick_wfc: CMakeFiles/quick_wfc.dir/build.make
 quick_wfc: CMakeFiles/quick_wfc.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/gpdolzan/CLionProjects/quick_wfc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable quick_wfc"
